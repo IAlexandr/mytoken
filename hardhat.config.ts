@@ -7,6 +7,11 @@ const config: HardhatUserConfig = {
     artifacts: "./compiled/artifacts",
     cache: "./compiled/cache",
   },
+  networks: {
+    hardhat: {
+      chainId: 1337,
+    },
+  },
 };
 
 export default config;
