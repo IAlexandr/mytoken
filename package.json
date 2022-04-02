@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile": "npx hardhat compile",
-    "test": "S_NODE_TRANSPILE_ONLY=1 npx hardhat test"
+    "test": "npm run compile && S_NODE_TRANSPILE_ONLY=1 npx hardhat test"
   },
   "repository": {
     "type": "git",
