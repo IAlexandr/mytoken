@@ -1,9 +1,10 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.13;
+pragma solidity ^0.8.6;
 
 contract Token {
     string public name = "Token";
     string public symbol = "TKN";
+    uint8 public decimals = 0;
 
     uint256 public totalSupply = 1000000;
 
